@@ -1,0 +1,49 @@
+"languageserver": {
+	"python": {
+		"command": "python",
+		"args": ["-m", "pyls"],
+		"filetypes": ["python"]
+	},
+	"clangd": {
+		"command": "clangd",
+		"args": ["--background-index"],
+		"filetypes": ["c", "cpp"]
+	},
+	"tsserver": {
+		"command": "typescript-language-server",
+		"args": ["--stdio"],
+		"filetypes": ["typescript", "javascript"]
+	},
+	"sumneko_lua": {
+		"command": "lua-language-server",
+		"args": ["-E", "-e", "LANG='en'", "/usr/share/lua-language-server/main.lua"],
+		"filetypes": ["lua"],
+		"rootPatterns": ["lua.toml", "nlua.toml"],
+		"initializationOptions": {
+			"hover.enable": true,
+			"completion.enableSnippets": true,
+			"workspace.preferredVirtualWorkspace": "Main",
+			"workspace.ignoreLargeFolders": true,
+			"workspace.typeCheckingMode": "off",
+			"telemetry.enable": false
+		}
+	},
+	"settings": {
+		"Lua.workspace.ignoreSubmodules": true,
+		"Lua.workspace.ignoreDir": [".git", ".svn", ".hg", ".vscode", ".idea", "node_modules", "deps", "build", "out"],
+		"Lua.workspace.useGitIgnore": true,
+		"Lua.diagnostics.globals": ["vim"],
+		"Lua.runtime.version": "LuaJIT",
+		"Lua.completion.callSnippet": "Both",
+		"Lua.completion.keywordSnippet": "Disable",
+		"Lua.completion.workspaceWord": true,
+		"Lua.completion.showWord": "Both",
+		"Lua.completion.showParams": true,
+		"Lua.completion.showParamsDocumentation": true,
+		"diagnostic.displayByAle": false
+	}
+}
+
+
+
+
