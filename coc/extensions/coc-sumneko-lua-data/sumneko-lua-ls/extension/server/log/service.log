@@ -1,9 +1,9 @@
-[16:34:20.263][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:66]: Lua Lsp startup, root: 	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
-[16:34:20.263][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:67]: ROOT:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
-[16:34:20.263][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:68]: LOGPATH:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log
-[16:34:20.263][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:69]: METAPATH:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta
-[16:34:20.264][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:70]: VERSION:	3.6.18
-[16:34:20.318][info] [#0:script/service/service.lua:144]: 
+[09:59:11.268][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:66]: Lua Lsp startup, root: 	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
+[09:59:11.268][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:67]: ROOT:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server
+[09:59:11.268][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:68]: LOGPATH:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log
+[09:59:11.268][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:69]: METAPATH:	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/meta
+[09:59:11.268][info] [#0:/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/main.lua:70]: VERSION:	3.6.18
+[09:59:11.317][info] [#0:script/service/service.lua:144]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.092 MB
@@ -25,7 +25,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[16:34:20.427][info] [#0:script/client.lua:657]: Client init	{
+[09:59:11.327][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     general = {
       markdown = {
@@ -308,17 +308,20 @@
     changeConfiguration = true
   },
   locale = "en_US",
-  processId = 3921,
-  rootPath = "/home/aria/.config/nvim",
-  rootUri = "file:///home/aria/.config/nvim",
+  processId = 1341,
+  rootPath = "/home/aria/.config",
+  rootUri = "file:///home/aria/.config",
   trace = "off",
-  workDoneToken = "6907c80c-4887-4457-bb1e-87cd7b772273",
+  workDoneToken = "468e3fd2-f0bc-4aea-bf5d-9a407886ec29",
   workspaceFolders = { {
-      name = "nvim",
-      uri = "file:///home/aria/.config/nvim"
+      name = "sycpl",
+      uri = "file:///mnt/c/Users/darea/Documents/Coding%20Arya/Python/sycpl"
+    }, {
+      name = ".config",
+      uri = "file:///home/aria/.config"
     } }
 }
-[16:34:20.427][info] [#0:script/language.lua:137]: VSC language: en-us
-[16:34:20.427][info] [#0:script/language.lua:138]: LS  language: en-us
-[16:34:20.427][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/aria/.config/nvim
-[16:34:20.431][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log/file_home_aria_.config_nvim.log
+[09:59:11.327][info] [#0:script/language.lua:137]: VSC language: en-us
+[09:59:11.327][info] [#0:script/language.lua:138]: LS  language: en-us
+[09:59:11.327][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/aria/.config
+[09:59:11.327][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/aria/.config/coc/extensions/coc-sumneko-lua-data/sumneko-lua-ls/extension/server/log/file_home_aria_.config.log
